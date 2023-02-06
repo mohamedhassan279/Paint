@@ -1,0 +1,47 @@
+<div class="container">
+    <div class="paint">
+        <div class="options-container">
+            <nav class="options">
+                <a type="button" (click)="openForm_o()"><i class="fa fa-fw fa-folder"></i>Open</a>
+                <div class="form-popup" id="OpenForm">
+                    <form action="/action_page.php" class="form-container">
+                        <h1>Open</h1>
+                        <button type="button" class="btn" (click)="loadj()">Open Json</button>
+                        <button type="button" class="btn" (click)="loadx()">Open Xml</button>
+                        <button type="button" class="btn cancel" (click)="closeForm_o()">Close</button>
+                    </form>
+                </div>
+                <a type="button" (click)="openForm_s()"><i class="fa fa-fw fa-save"></i>Save</a>
+                <div class="form-popup" id="SaveForm">
+                    <form action="/action_page.php" class="form-container">
+                        <h1>Save</h1>
+                        <button type="button" class="btn" (click)="savej()">Save As Json</button>
+                        <button type="button" class="btn" (click)="savex()">Save As Xml</button>
+                        <button type="button" class="btn cancel" (click)="closeForm_s()">Close</button>
+                    </form>
+                </div>
+                <a (click)="undo()" (window:keydown.control.z) = "undo()"><i class="fa fa-fw fa-reply"></i> Undo</a>
+                <a (click)="redo()" (window:keydown.control.y) = "redo()"><i class="fa fa-fw fa-share"></i> Redo</a>
+                <a (click)="deleteSelected([])"><i class="fa fa-fw fa-eraser"></i> Delete element</a>
+                <a (click)="deleteAll()"><i class="fa fa-fw fa-eraser"></i> Delete all</a>
+                <a (click)="copy()" (window:keydown.control.c) = "copy()"><i class="fa-regular fa-copy"></i> Copy</a>
+            </nav>
+            <div class="color-pickers">
+                <a><input type="color" id="pick" (click)="pick()"
+                        value="#f6f82" /> Color</a>
+                <a (click)="fill([])"><i class="fa-solid fa-fill-drip"></i> Fill</a>
+                <a (click)="border([])"><i class="fa-sharp fa-solid fa-pen"></i>
+                    border</a>
+            </div>
+        </div>
+        <ul class="shapes">
+            <li><a style="cursor: pointer" (click)="rectangle()">&#9645;</a></li>
+            <li><a style="font-size: 35px; cursor: pointer" (click)="square()">&#9633;</a></li>
+            <li><a style="font-size: 30px; cursor: pointer" (click)="ellipse()">&#x2B2D;</a></li>
+            <li style="cursor: pointer" (click)="circle()"><a>&#9711;</a></li>
+            <li><a style="font-size: 30px; cursor: pointer" (click)="triangle()">&#9722;</a></li>
+            <li style="cursor: pointer" (click)="line()"><a>&#9586;</a></li>
+        </ul>
+        <div style="background-color: white" id="drawing-field" (click)="draw_shape()"></div>
+    </div>
+</div>

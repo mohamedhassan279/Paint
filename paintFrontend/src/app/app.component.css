@@ -1,0 +1,186 @@
+.container {
+    font-family: sans-serif;
+    background-color: rgba(1, 18, 33, 0.842);
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+.shapes {
+    list-style: none;
+    position: absolute;
+    left: 0;
+    padding: 0;
+    top: 30%;
+    background-color: rgb(6, 23, 36);
+    padding: 10px;
+    border-radius: 50px;
+    margin-left: 5px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+::ng-deep * {
+
+    margin: 0;
+    padding: 0;
+}
+.shapes li {
+    color: white;
+    font-weight: 500;
+}
+
+.shapes li a {
+    font-size: 20px;
+}
+
+.shapes li {
+    transition: all 0.5s ease-in-out;
+}
+
+.paint {
+    margin: 0px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.options a {
+    cursor: pointer;
+}
+
+nav {
+    margin-top: 0px;
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(6, 23, 36);
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.color-pickers {
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(6, 23, 36);
+    /* background-color: white; */
+    padding: 15px;
+    border-radius: 50px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+}
+
+.color-pickers a{
+    color: white;
+    cursor: pointer;
+}
+
+nav a:hover,
+.shapes li:hover,
+.color-pickers a:hover
+{
+    color: aqua;
+}
+.color-pickers a{
+    transition: all 0.5s ease-in-out;
+}
+
+nav a:active {
+    font-size: 0.5em;
+}
+
+.shapes li:active, .color-pickers a:active{
+    font-size: 0.5em;
+}
+
+nav a {
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+#drawing-field {
+    border: 2px solid black;
+    width: 92%;
+    height: 82vh;
+    margin-top: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    /* margin-left: 10px; */
+}
+
+.options-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+input {
+    width: 25px;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    height: 20px;
+}
+
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    /* border: 3px solid #f1f1f1; */
+    z-index: 9;
+  }
+
+  .form-container {
+    width: 300px;
+    padding: 10px;
+    background-color: black;
+  }
+
+  .form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+
+  .form-container input[type=text]:focus, .form-container input[type=password] {
+    background-color: #ddd;
+    outline: none;
+  }
+
+
+  .form-container .btn {
+    background-color: green;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+
+  .form-container .cancel {
+    background-color: red
+  }
+
+
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+
+  h1{
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
