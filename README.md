@@ -5,7 +5,8 @@
 - [Used design patterns](#used-design-patterns)
 - [UML class diagram](#UML-class-diagram)
 - [Snapshots of our UI and a user guide](#Snapshots-of-our-UI-and-a-user-guide)
-- [Demo Video for using the app](#Demo-Video-for-using-the-app)
+- [Demo Video for using the app](https://drive.google.com/file/d/1sTzXK4XYjFNsEc8gUkKepFy88FILiUoJ/view?usp=sharing)
+- [Contributers](#Contributers)
 ---
 ![image](https://github.com/mahmoudattia12/Paint/blob/main/screenshots/A1.jpg?raw=true)
 ![image](https://github.com/mahmoudattia12/Paint/blob/main/screenshots/A2.jpg?raw=true)
@@ -106,5 +107,8 @@
 ## Demo Video for using the app:
 - [link to the video](https://drive.google.com/file/d/1sTzXK4XYjFNsEc8gUkKepFy88FILiUoJ/view?usp=sharing)
 
-
-
+## Contributers:
+* [Adel Mahmoud](https://github.com/Adel-Mahmoud-Mohamed)
+* [Mohamed Hassan](https://github.com/mohamedhassan279)
+* [Mahmoud Atteia](https://github.com/mahmoudattia12)
+* [Mahmoud Ghlab](https://github.com/Mahmoudjobdis)
