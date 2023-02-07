@@ -110,5 +110,5 @@
 ## Contributers:
 * [Adel Mahmoud](https://github.com/Adel-Mahmoud-Mohamed)
 * [Mohamed Hassan](https://github.com/mohamedhassan279)
-* [Mahmoud Atteia](https://github.com/mahmoudattia12)
+* [Mahmoud Attia](https://github.com/mahmoudattia12)
 * [Mahmoud Ghlab](https://github.com/Mahmoudjobdis)
