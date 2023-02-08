@@ -1,13 +1,22 @@
-# Paint 
+# Paint
+Simple Paint Application Developed using angular framework and springboot.
+
 ## Contents:
+- [Contributers](#Contributers)
 - [Frameworks and technology used](#Frameworks-and-technology-used)
 - [How to run](#How-to-run)
 - [Used design patterns](#used-design-patterns)
 - [UML class diagram](#UML-class-diagram)
 - [Snapshots of our UI and a user guide](#Snapshots-of-our-UI-and-a-user-guide)
 - [Demo Video for using the app](https://drive.google.com/file/d/1sTzXK4XYjFNsEc8gUkKepFy88FILiUoJ/view?usp=sharing)
-- [Contributers](#Contributers)
 ---
+## Contributers:
+* [Adel Mahmoud](https://github.com/Adel-Mahmoud-Mohamed)
+* [Mohamed Hassan](https://github.com/mohamedhassan279)
+* [Mahmoud Attia](https://github.com/mahmoudattia12)
+* [Mahmoud Ghlab](https://github.com/Mahmoudjobdis)
+---
+
 ![image](https://github.com/mahmoudattia12/Paint/blob/main/screenshots/A1.jpg?raw=true)
 ![image](https://github.com/mahmoudattia12/Paint/blob/main/screenshots/A2.jpg?raw=true)
 ![image](https://github.com/mahmoudattia12/Paint/blob/main/screenshots/A3.jpg?raw=true)
@@ -106,9 +115,3 @@
 ---
 ## Demo Video for using the app:
 - [link to the video](https://drive.google.com/file/d/1sTzXK4XYjFNsEc8gUkKepFy88FILiUoJ/view?usp=sharing)
-
-## Contributers:
-* [Adel Mahmoud](https://github.com/Adel-Mahmoud-Mohamed)
-* [Mohamed Hassan](https://github.com/mohamedhassan279)
-* [Mahmoud Attia](https://github.com/mahmoudattia12)
-* [Mahmoud Ghlab](https://github.com/Mahmoudjobdis)
