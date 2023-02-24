@@ -10,6 +10,7 @@ Simple Paint Application Developed using angular framework and springboot.
 - [Snapshots of our UI and a user guide](#Snapshots-of-our-UI-and-a-user-guide)
 - [Demo Video for using the app](#Demo-Video-for-using-the-app)
 ---
+
 ## Contributers:
 * [Adel Mahmoud](https://github.com/Adel-Mahmoud-Mohamed)
 * [Mohamed Hassan](https://github.com/mohamedhassan279)
